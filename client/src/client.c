@@ -27,7 +27,7 @@ int main(void)
 	struct sockaddr_in s_addr;
 	s_addr.sin_family = AF_INET;
 	s_addr.sin_port = htons(8080);
-	if(inet_pton(AF_INET,"192.168.118.138",&s_addr.sin_addr.s_addr) == -1)
+	if(inet_pton(AF_INET,"192.168.31.175",&s_addr.sin_addr.s_addr) == -1)
 	{
 		fprintf(stderr,"函数名:%s 行号:%d 错因:%s\n",__func__,__LINE__,strerror(errno));
 		exit(EXIT_FAILURE);

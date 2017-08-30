@@ -16,7 +16,7 @@ void server_main_menu(void)
 	printf("5.关闭服务器\n");
 	printf("6.注销\n")
 }
-void sever_user_message_menu(void)
+void server_user_message_menu(void)
 {
 	printf("1.用户信息\n");
 	printf("2.用户排序\n");
